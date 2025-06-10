@@ -1,5 +1,5 @@
 
-let messages = [];
+const messages = [];
 let count = 0;
 
 function send() {
