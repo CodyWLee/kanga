@@ -27,6 +27,6 @@ function send() {
     }, 500);
 }
 
-var appVersion = "1.0";
-var appName = "GloboCorp's GPT Genie";
+let appVersion = "1.0";
+let appName = "GloboCorp's GPT Genie";
 console.log(appName + " " + appVersion + " loaded @ " + new Date());
