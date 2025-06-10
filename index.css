@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    margin: 20rem;
+}
+
+.title {
+    color: #C41A1A;
+}
+
+.chat-box {
+    border: 1rem solid black;
+    height: 200rem;
+    overflow-y: scroll;
+    padding: 10rem;
+}
+
+.message {
+    margin: 5rem 0;
+}
+
+.user {
+    background: #14E2D4;
+    text-align: right;
+}
+
+.bot {
+    background: #879493;
+}
