@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <title>GloboCorp GPT Genie</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -8,12 +9,16 @@
     <h1 class="title">GloboCorp's GPT Genie</h1>
     <p>Tell us your wishes and all of your dreams will come true!</p>
     
-    <div id="chat" class="chat-box"></div>
+    <section id="chat" class="chat-box"></section>
 
     <br>
     <input type="text" id="input" onkeypress="if(event.keyCode==13) send()" />
     <button onclick="send()">Send</button>
 
     <script src="script.js"></script>
+    <noscript>
+        No Html
+    </noscript>
 </body>
 </html>
+
